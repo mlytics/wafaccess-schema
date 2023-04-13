@@ -1,10 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://<host>/path",
   "type": "object",
   "properties": {
     "@schema_ver": {
-      "const": "v0.1",
+      "const": "v0.1.1",
       "description": "The schema version"
     },
     "origin_content_encoding": {
