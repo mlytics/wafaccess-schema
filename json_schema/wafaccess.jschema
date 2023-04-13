@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://<host>/path",
+  "type": "object",
+  "properties": {
+    "@schema_ver": {
+      "const": "v0.1",
+      "description": "The schema version"
+    },
+    "origin_content_encoding": {
+      "type": "string",
+      "description": ""
+    },
+    "customer_info": {
+      "type": "string",
+      "description": ""
+    },
+    "accept_encoding": {
+      "type": "string",
+      "description": ""
+    },
+    "upstream_connect_time": {
+      "type": "number",
+      "minimum": 0,
+      "description": ""
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 32,
+      "maxLength": 32,
+      "description": ""
+    },
+    "realip_remote_addr": {
+      "type": "string",
+      "description": ""
+    },
+    "zone_id": {
+      "type": "string",
+      "description": ""
+    },
+    "uri": {
+      "type": "string",
+      "description": ""
+    },
+    "http_x_forwarded_for": {
+      "type": "string",
+      "description": ""
+    },
+    "upstream_header_time": {
+      "type": "number",
+      "minimum": 0,
+      "description": ""
+    },
+    "cache_status": {
+      "enum": [
+        "HIT",
+        "MISS",
+        "-"
+      ],
+      "description": ""
+    },
+    "mitigation_result": {
+      "type": "string",
+      "description": ""
+    },
+    "http_referer": {
+      "type": "string",
+      "description": ""
+    },
+    "query_string": {
+      "type": "string",
+      "description": ""
+    },
+    "upstream_addr": {
+      "type": "string",
+      "description": ""
+    },
+    "scheme": {
+      "enum": [
+        "http",
+        "https"
+      ],
+      "description": ""
+    },
+    "body_bytes_sent": {
+      "type": "integer",
+      "minimum": 0,
+      "description": ""
+    },
+    "sent_http_content_type": {
+      "type": "string",
+      "description": ""
+    },
+    "remote_addr": {
+      "type": "string",
+      "description": ""
+    },
+    "request_time": {
+      "type": "number",
+      "minimum": 0,
+      "description": ""
+    },
+    "content_encoding": {
+      "type": "string",
+      "description": ""
+    },
+    "request_host": {
+      "type": "string",
+      "description": ""
+    },
+    "upstream_status": {
+      "type": "integer",
+      "description": ""
+    },
+    "upstream_host": {
+      "type": "string",
+      "description": ""
+    },
+    "http_user_agent": {
+      "type": "string",
+      "description": ""
+    },
+    "time": {
+      "type": "string",
+      "format": "date-time",
+      "description": ""
+    },
+    "cdn_node_ip": {
+      "type": "string",
+      "description": ""
+    },
+    "status": {
+      "type": "integer",
+      "description": ""
+    },
+    "bytes_sent": {
+      "type": "integer",
+      "minimum": 0,
+      "description": ""
+    },
+    "cdn_provider": {
+      "type": "string",
+      "description": ""
+    },
+    "upstream_response_length": {
+      "type": "integer",
+      "minimum": 0,
+      "description": ""
+    },
+    "upstream_response_time": {
+      "type": "number",
+      "minimum": 0,
+      "description": ""
+    },
+    "http_version": {
+      "type": "string",
+      "description": ""
+    },
+    "request_method": {
+      "type": "string",
+      "description": ""
+    },
+    "request_length": {
+      "type": "integer",
+      "minimum": 0,
+      "description": ""
+    }
+  },
+  "required": [
+    "origin_content_encoding",
+    "customer_info",
+    "accept_encoding",
+    "upstream_connect_time",
+    "request_id",
+    "realip_remote_addr",
+    "zone_id",
+    "uri",
+    "http_x_forwarded_for",
+    "upstream_header_time",
+    "cache_status",
+    "mitigation_result",
+    "http_referer",
+    "query_string",
+    "upstream_addr",
+    "scheme",
+    "body_bytes_sent",
+    "sent_http_content_type",
+    "remote_addr",
+    "request_time",
+    "content_encoding",
+    "request_host",
+    "upstream_status",
+    "upstream_host",
+    "http_user_agent",
+    "time",
+    "cdn_node_ip",
+    "status",
+    "bytes_sent",
+    "cdn_provider",
+    "upstream_response_length",
+    "upstream_response_time",
+    "http_version",
+    "request_method",
+    "request_length"
+  ]
+}
