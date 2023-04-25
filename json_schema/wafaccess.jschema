@@ -3,166 +3,130 @@
   "type": "object",
   "properties": {
     "@schema_ver": {
-      "const": "v0.1.1",
-      "description": "The schema version"
+      "const": "v0.1.1"
     },
     "origin_content_encoding": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "customer_info": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "accept_encoding": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "upstream_connect_time": {
       "type": "number",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "request_id": {
       "type": "string",
       "minLength": 32,
-      "maxLength": 32,
-      "description": ""
+      "maxLength": 32
     },
     "realip_remote_addr": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "zone_id": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "uri": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "http_x_forwarded_for": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "upstream_header_time": {
       "type": "number",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "cache_status": {
       "enum": [
         "HIT",
         "MISS",
         "-"
-      ],
-      "description": ""
+      ]
     },
     "mitigation_result": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "http_referer": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "query_string": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "upstream_addr": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "scheme": {
       "enum": [
         "http",
         "https"
-      ],
-      "description": ""
+      ]
     },
     "body_bytes_sent": {
       "type": "integer",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "sent_http_content_type": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "remote_addr": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "request_time": {
       "type": "number",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "content_encoding": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "request_host": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "upstream_status": {
-      "type": "integer",
-      "description": ""
+      "type": "integer"
     },
     "upstream_host": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "http_user_agent": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "time": {
       "type": "string",
-      "format": "date-time",
-      "description": ""
+      "format": "date-time"
     },
     "cdn_node_ip": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "status": {
-      "type": "integer",
-      "description": ""
+      "type": "integer"
     },
     "bytes_sent": {
       "type": "integer",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "cdn_provider": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "upstream_response_length": {
       "type": "integer",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "upstream_response_time": {
       "type": "number",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     },
     "http_version": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "request_method": {
-      "type": "string",
-      "description": ""
+      "type": "string"
     },
     "request_length": {
       "type": "integer",
-      "minimum": 0,
-      "description": ""
+      "minimum": 0
     }
   },
   "required": [
