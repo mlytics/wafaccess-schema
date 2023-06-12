@@ -15,8 +15,10 @@
       "type": "string"
     },
     "upstream_connect_time": {
-      "type": "number",
-      "minimum": 0
+      "type": [
+        "number",
+        "null"
+      ]
     },
     "request_id": {
       "type": "string",
@@ -36,8 +38,10 @@
       "type": "string"
     },
     "upstream_header_time": {
-      "type": "number",
-      "minimum": 0
+      "type": [
+        "number",
+        "null"
+      ]
     },
     "cache_status": {
       "enum": [
@@ -85,7 +89,10 @@
       "type": "string"
     },
     "upstream_status": {
-      "type": "integer"
+      "type": [
+        "integer",
+        "null"
+      ]
     },
     "upstream_host": {
       "type": "string"
@@ -111,12 +118,16 @@
       "type": "string"
     },
     "upstream_response_length": {
-      "type": "integer",
-      "minimum": 0
+      "type": [
+        "integer",
+        "null"
+      ]
     },
     "upstream_response_time": {
-      "type": "number",
-      "minimum": 0
+      "type": [
+        "number",
+        "null"
+      ]
     },
     "http_version": {
       "type": "string"
