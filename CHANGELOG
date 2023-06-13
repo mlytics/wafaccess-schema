@@ -1,0 +1,25 @@
+# Changelog
+
+## v0.3.0
+
+### Added
+
+- Add "Nullable" in README
+
+### Fixed
+
+- Modify schema to allow the following fields to be null:
+  - upstream_connect_time
+  - upstream_header_time
+  - upstream_response_length
+  - upstream_response_time
+  - upstream_status
+
+---
+
+## v0.1.0
+
+### Added
+
+- Add json schema for wafaccess log
+- Add README for schema explanation 
